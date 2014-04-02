@@ -1,4 +1,4 @@
-Arudino-Rotary-Keyboard
+I2C-Arudino-Rotary-Keyboard
 ========================
 
 Handling multiple rotary encoders with microcontroller and acting like i2c keyboard.
