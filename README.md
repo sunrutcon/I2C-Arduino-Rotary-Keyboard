@@ -12,4 +12,3 @@ When handling big amount of code with microcontroller with lot of interrupts, se
 Arduino IDE should have installed Rotary, Button and Wire library.
 Wire library must be changed to provide some functionality on which depends main program. One must add definition and declaration of function write_raw in Wire.h and Wire.cpp.
 
-3. 
