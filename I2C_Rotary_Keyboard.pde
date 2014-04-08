@@ -35,7 +35,7 @@ Button btn3(12, PULLUP);
 
 void setup() {
   Serial.begin(9600);
-  Wire.begin(6);                // join i2c bus with address #6
+  Wire.begin(6);                // join i2c bus with address 0x06
   Wire.onRequest(requestEvent); // register event
 }
 
