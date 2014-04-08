@@ -144,7 +144,7 @@ void requestEvent()
   msg[6]=b3Incr;
   
   if(changeFlag){
-    Wire.write_raw(msg,8);   
+    Wire.write_raw(msg,8);   // Wire.write_raw is modified function Wire.write to accept arrays with 0's
     r1Incr=0;
     r2Incr=0;
     r3Incr=0;
